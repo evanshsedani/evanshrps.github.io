@@ -1,0 +1,102 @@
+body{
+    background: linear-gradient(
+      to right,
+      #177e89 0%,
+      #177e89 50%,
+      #db3a34 50%,
+      #db3a34 100%
+    );
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h1{
+    text-align: center;
+    font-size: 50px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: #ffffff;
+    
+}
+p{
+    text-align: center;
+    font-size: 75px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #ffffff;
+    
+}
+img{
+    width: 100px;
+    
+
+}
+
+.vl{border-left: 6px solid rgb(255, 255, 255);
+  height: 750px;
+  position: absolute;
+  left: 50%;
+  margin-left: -3px;
+  top: 0;
+  }
+
+.image {
+    opacity: 1;
+    display: block;
+    width: 100px;
+    height: auto;
+    transition: .5s ease;
+    backface-visibility: hidden;
+  }
+  .image1 {
+    opacity: 1;
+    display: block;
+    width: 100px;
+    height: auto;
+    transition: .5s ease;
+    backface-visibility: hidden;
+  }
+  .image2 {
+    opacity: 1;
+    display: block;
+    width: 100px;
+    height: auto;
+    transition: .5s ease;
+    backface-visibility: hidden;
+  }
+  
+  .container:hover .image {
+    opacity: 0.3;
+  }
+  .container:hover .image1 {
+    opacity: 0.3;
+  }
+  
+  .container:hover .image2 {
+    opacity: 0.3;
+  }
+  
+  
+  .container:hover .middle {
+    opacity: 1;
+  }
+  #resultbox{
+    margin-left: auto;
+    
+    width: 200px;
+    
+    background-color: #ffffff;
+    opacity: 0.6;
+    border: solid;
+  }
+  h2{
+    text-align: center;
+    text-transform: uppercase;
+    margin-top: 30%;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  #myscore{
+
+    font-size: 50px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: #ffffff;
+  }

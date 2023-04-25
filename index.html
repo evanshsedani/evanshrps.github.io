@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="stylesheet.css">
+
+</head>
+<body style="height: fit-content">
+    <table style="width: 100%; height: 100%; padding: 0%; border-spacing: 0px;">
+    <tr style="height: 100%;">
+        <td>
+            
+            <h1 style="text-align: left;">Rock paper scissor game.<br>Pick an option</h1>
+            <div class="container" style="float: left;"><button onclick="myfunction()" id="rockbutton">
+                <img src="rock.png" alt="rock!" class="image"></button></div>
+            <div class="container" style="float: left;"><button onclick="myfunction1()" id="paperbutton">
+                <img src="paper.png" alt="paper!" class="image1"></button></div>
+            <div class="container" style="float:left;"><button onclick="myfunction2()" id="scissorbutton">
+                <img src="scissors.png" alt="scissors!" class="image2"></button></div></div>
+        </td>
+        <td>
+            
+            <p style="font-size: 40px;">Score: </p><div style="float: right;"id="myscore">0</div>
+            <br>
+            <h1 style="text-align: right;">The computer Response is:</h1>
+            <h1 id="myid" style="text-align: right; font-size: 40px;"></h1>
+            <div id="resultbox" style="margin-top: 50px;"><h2 id="myresult"></h2></div>
+            <div class="vl"></div>
+        </td>
+    </tr>
+    </table>
+    <script src="app.js"></script>
+</body>
+</html>
+
+<!--<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="stylesheet.css">
+
+</head>
+<body><table style="border: solid;">
+    <tr>
+        <td>
+    <div style="float: right;" id="myscore">score total: 0</div>
+
+<p id="myid" style="text-align: right; font-size: 40px;">Comptuer Response</p>
+
+<div class="container" style="float: left;"><button onclick="myfunction()" id="rockbutton"><img src="rock.png" alt="rock!" class="image"></button></div>
+<div class="container" style="float: left;"><button onclick="myfunction1()" id="paperbutton"><img src="paper.png" alt="paper!" class="image1"></button></div>
+<div class="container" style="float:left;"><button onclick="myfunction2()" id="scissorbutton"><img src="scissors.png" alt="scissors!" class="image2"></button></div></div>
+</td>
+<td>
+    <div id="resultbox"><h2 id="myresult">Andddddd....?</h2></div>
+    <div class="vl"></div>
+</td>
+</tr>
+</table>
+    <script src="app.js"></script>
+</body>
+</html>
